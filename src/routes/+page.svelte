@@ -1,5 +1,5 @@
 <script>
-  import CardsContainer from "$lib/components/CardsContainer.svelte";
+  import CardsContainer from "$lib/components/Card/Container.svelte";
   import FilterOptions from "$lib/components/FilterOptions.svelte";
 
   const { data } = $props();

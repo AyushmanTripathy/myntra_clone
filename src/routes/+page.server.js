@@ -13,9 +13,10 @@ export const load = async () => {
       salePrice: Math.floor(Math.random() * 2000),
       marketPrice: Math.floor(Math.random() * 2000) + 2000,
       title: "Ombre Pure Georgette Saree",
-      showRating: Math.random() > 0.4 ? true : false,
+      showRating: Math.random() > 0.2 ? true : false,
       rating: 3.8,
       ratingCount: Math.floor(Math.random() * 10000),
+      sizes: [ "Onesize", "XL", "L" ]
     });
   }
 
