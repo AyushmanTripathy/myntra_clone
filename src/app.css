@@ -1,1 +1,5 @@
 @import 'tailwindcss';
+
+.dotActive {
+  background-color: #F41CB2;
+}
