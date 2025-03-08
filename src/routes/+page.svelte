@@ -5,7 +5,7 @@
   const { data } = $props();
 </script>
 
-<div class="flex flex-col justify-center items-center min-h-screen w-screen">
+<div class="flex flex-col items-center min-h-screen w-screen">
   <div class="w-screen sticky top-0 left-0"> Navbar </div>
   <div
     class="flex border border-black max-w-[1680px] w-screen"
