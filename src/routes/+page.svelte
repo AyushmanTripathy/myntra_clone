@@ -8,7 +8,7 @@
 
 <div class="flex flex-col items-center min-h-screen w-screen">
   <Topbar />
-  <div class="flex max-w-[1680px] w-screen">
+  <div class="flex pt-3 max-w-[1680px] w-screen">
     <FilterOptions />
     <CardsContainer products={data.products} />
   </div>
