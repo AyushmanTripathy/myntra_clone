@@ -1,5 +1,21 @@
-@import 'tailwindcss';
+@import "tailwindcss";
+
+@theme {
+  --animate-fadein: fadein 0.5s ease-in-out forwards;
+  @keyframes fadein {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 100;
+    }
+  }
+}
 
 .dotActive {
-  background-color: #F41CB2;
+  background-color: #f41cb2;
+}
+
+.dropdownButton:hover {
+  border-color: var(--border-color);
 }
