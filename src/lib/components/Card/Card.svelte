@@ -5,12 +5,19 @@
   const { salePrice, marketPrice, showRating } = product;
 
   let hovering = $state(false);
-  const mouseEntered = () => (hovering = true);
-  const mouseLeft = () => (hovering = false);
+  let cardEle = null;
+  const mouseEntered = () => { 
+    hovering = true
+    setTimeout(() => {
+      if (!cardEle.matches(":hover")) hovering = false;
+    }, 200)
+  }
+  const mouseLeft = () => hovering = false;
 </script>
 
 <div class="flex justify-center items-center">
   <div
+    bind:this={cardEle}
     onmouseenter={mouseEntered}
     onmouseleave={mouseLeft}
     role="img"

@@ -62,6 +62,6 @@
       <div class="h-2 w-2 bg-gray-400 rounded-2xl"></div>
     {/each}
   </div>
-  <button class="border border-green-800 p-1 w-full"> Wishlist </button>
+  <button class="border border-green-800 p-1 w-full"> WISHLIST </button>
   <p class="text-sm font-light p-1">Sizes: {sizes.join(", ")}</p>
 </div>
