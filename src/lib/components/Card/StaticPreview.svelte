@@ -1,12 +1,12 @@
 <script>
+  import { formatRatingCount } from "$lib/index.js";
   const { product } = $props();
   const { images, brand, title, rating, showRating, ratingCount } = product;
-  const ratingCountFormatted = $derived(
-    ratingCount > 1000 ? Math.floor(ratingCount / 100) / 10 + "k" : ratingCount,
-  );
+
+  const ratingCountFormatted = formatRatingCount(ratingCount)
 </script>
 
-<div class="w-full aspect-3/4 bg-cover bg-[url(/images/1.jpg)] relative">
+<div style="background-image: url({images[0]});" class="w-full aspect-3/4 bg-cover relative">
   {#if showRating}
     <div
       class="bg-white opacity-70 rounded-md w-fit p-1 text-xs font-bold absolute bottom-2 left-2"

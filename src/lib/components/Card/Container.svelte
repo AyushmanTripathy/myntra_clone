@@ -48,6 +48,7 @@
 </script>
 
 <div class="grow">
+  <!-- Sorting -->
   <div class="flex justify-between w-full pt-16 pb-6">
     <div class="flex flex-wrap gap-2 w-2xl">
       {#each filterButtons as btn}
@@ -60,7 +61,7 @@
       {/each}
     </div>
     <div
-      class="relative group min-w-72 h-fit text-sm p-3 rounded-xs flex items-center justify-between border border-gray-300"
+      class="relative group min-w-72 h-fit text-sm p-3 mr-3 rounded-xs flex items-center justify-between border border-gray-300"
     >
       <p>
         Sort By : <strong>Recommended</strong>
@@ -73,6 +74,8 @@
       <img src="/icons/arrow_down.svg" alt="down" />
     </div>
   </div>
+
+  <!-- Products -->
   <div
     class="grow pb-7 w-full grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-3"
   >
@@ -80,6 +83,8 @@
       <Card {product} />
     {/each}
   </div>
+
+  <!-- Page Controls -->
   <div class="grow flex justify-center items-center gap-6">
     <button onclick={gotoOne} class="pageButton" disabled={pageNo == 1}>
       <img src="/icons/double_arrow_left.svg" alt="Page 1" />
