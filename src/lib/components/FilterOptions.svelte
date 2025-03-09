@@ -23,6 +23,11 @@
 </script>
 
 <div class="w-72 text-xs flex flex-col items-center">
+  <div class="filterContainer flex-col border-none text-sm">
+    <p>Home / Clothing / Sarees / <strong>Sarees</strong></p>
+    <p><strong>Sarees</strong> - 18200 items</p>
+  </div>
+
   <div class="filterContainer justify-between">
     <p class="text-sm font-bold">FILTERS</p>
     <p class="text-sm font-bold text-pink-500">CLEAR ALL</p>
@@ -69,11 +74,11 @@
     {/each}
   </div>
   <div class="filterContainer flex-col">
-    <p class="font-bold"> DISCOUNT RANGE </p>
-    {#each { length: 9 } as _, i }
+    <p class="font-bold">DISCOUNT RANGE</p>
+    {#each { length: 9 } as _, i}
       <div class="flex gap-3 checked:bg-pink-500">
         <input type="radio" />
-        <p> {i + 1}0% and above </p>
+        <p>{i + 1}0% and above</p>
       </div>
     {/each}
   </div>
