@@ -28,6 +28,10 @@
   @apply rounded-sm border border-gray-300 enabled:hover:border-black;
 }
 
+.filterContainer {
+  @apply w-64 flex gap-3 p-3 border-b border-b-gray-300;
+}
+
 .dotActive {
   background-color: #f41cb2;
 }
