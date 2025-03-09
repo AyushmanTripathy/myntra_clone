@@ -62,6 +62,8 @@
       <div class="h-2 w-2 bg-gray-400 rounded-2xl"></div>
     {/each}
   </div>
-  <button class="border border-green-800 p-1 w-full"> WISHLIST </button>
+  <button class="border flex justify-center items-center gap-3 font-bold text-xs border-gray-400 hover:border-black rounded-sm p-1 w-full"> 
+    <img src="/icons/favorite.svg" alt="wishlist">
+  WISHLIST </button>
   <p class="text-sm font-light p-1">Sizes: {sizes.join(", ")}</p>
 </div>

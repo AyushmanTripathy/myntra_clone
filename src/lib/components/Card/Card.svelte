@@ -21,7 +21,7 @@
     onmouseenter={mouseEntered}
     onmouseleave={mouseLeft}
     role="img"
-    class="flex h-full flex-col w-[220px]"
+    class="flex h-full cursor-pointer flex-col w-[220px]"
   >
     <div class="w-full h-full relative">
       {#if hovering}

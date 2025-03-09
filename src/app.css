@@ -13,7 +13,11 @@
 }
 
 .icon {
-  @apply w-6 h-6
+  @apply w-6 h-6;
+}
+
+.actionButton {
+  @apply flex flex-col items-center font-bold text-xs cursor-pointer;
 }
 
 .dotActive {
