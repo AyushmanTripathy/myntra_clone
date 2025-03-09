@@ -16,7 +16,7 @@
       <img class="icon mr-4" src="/icons/search.svg" alt="" />
       <input
         type="text"
-        class="outline-0 w-full max-w-full"
+        class="outline-0 w-full"
         placeholder="Seach for products, brands and more"
       />
     </div>

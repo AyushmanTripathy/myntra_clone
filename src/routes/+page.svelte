@@ -6,9 +6,9 @@
   const { data } = $props();
 </script>
 
-<div class="flex flex-col items-center min-h-screen w-screen">
+<div class="flex flex-col  items-center min-h-screen w-screen">
   <Topbar />
-  <div class="flex pt-3 max-w-[1680px] w-screen">
+  <div class="flex justify-center pt-3 pb-3 max-w-[1680px] w-screen">
     <FilterOptions />
     <CardsContainer products={data.products} />
   </div>

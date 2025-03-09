@@ -20,6 +20,14 @@
   @apply flex flex-col items-center font-bold text-xs cursor-pointer;
 }
 
+.pageButton {
+  @apply p-3 flex font-light gap-3 text-sm items-center enabled:font-bold enabled:cursor-pointer;
+}
+
+.pageButtonHover {
+  @apply rounded-sm border border-gray-300 enabled:hover:border-black;
+}
+
 .dotActive {
   background-color: #f41cb2;
 }
