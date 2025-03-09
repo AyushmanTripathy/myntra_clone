@@ -12,6 +12,10 @@
   }
 }
 
+.icon {
+  @apply w-6 h-6
+}
+
 .dotActive {
   background-color: #f41cb2;
 }

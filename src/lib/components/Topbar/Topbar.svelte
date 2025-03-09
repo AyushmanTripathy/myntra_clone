@@ -10,8 +10,9 @@
 
     <Navbar />
 
-    <div>
-      <input type="text" placeholder="Search" />
+    <div class="flex w-[30vw] max-w-xl p-2 rounded-md bg-gray-100 focus-within:bg-transparent border border-white focus-within:border-gray-300">
+      <img class="icon mr-4" src="/icons/search.svg" alt="">
+      <input type="text" class="outline-0 w-full max-w-full" placeholder="Seach for products, brands and more">
     </div>
 
     <div class="flex gap-2">
